@@ -4,8 +4,10 @@ $(function(){
 
     $("#button01").on("click",function(){
         $(".back-red").hide();
-        $(".back-red").show();
     })
+    $("button02").on("click",function(){
+        $(".back-blue").hide();
+    }
 
 })
 
