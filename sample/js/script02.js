@@ -22,7 +22,7 @@ $(function(){
 
     })
     $("#button05").on("click",function(){ 
-        $("#button05"). append(num1　"かける" * num2);
+        $("#button05"). append(num1　 * num2);
 
   
 
