@@ -6,7 +6,7 @@ $(function(){
     let num2 =32;   
 
     $("#button01").on("click",function(){ 
-        $("#content").  text("こんにちは")
+        $("#content").  append("こんにちは")
 
     })
     $("#button02").on("click",function(){ 
@@ -18,13 +18,11 @@ $(function(){
 
     })
     $("#button04").on("click",function(){ 
-        $("#content").  text(num1 + num2);
+        $("#content").  append(num1 + num2);
 
     })
     $("#button05").on("click",function(){ 
-        $("#content").  text("あんさー" +(num1+num2));
-
-    })
+        $("#button05"). append(num1　"かける" * num2);
 
   
 
